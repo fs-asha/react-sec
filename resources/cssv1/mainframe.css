@@ -1,5 +1,128 @@
-@import url(_variables.css);
-@import url(_nfonts.css);
+/* @import url(_variables.css);
+@import url(_nfonts.css); */
+:root {
+
+  /*Primary c*/
+  --primary-color: #1e4691; /*Pantone 286c*/
+  --primary-rgb: 30, 70, 145; /*Pantone 286c*/
+  --primary-sec-color: #f78f3a; /*Pantone 1495c*/
+  --primary-sec-rgb: 247, 143, 58; /*Pantone 1495c*/
+  --primary-gray-color: #828282; /*60% Black*/
+  --primary-gray-rgb: 130, 130, 130; /*60% Black*/
+  --primary-lightgray-color: #f3f4f6; /*Light gray*/
+  --primary-lightgray-rgb: 243, 244, 246; /*Light gray*/
+
+  --secondary-color: #192b5c; /*Dark Blue*/
+  --secondary-rgb: 25, 43, 92; /*Dark Blue*/
+  --secondary-color: #585858; /*Dark Gray*/
+  --secondary-rgb: 88, 88, 88; /*Dark Gray*/
+
+  /*--primary-color: #105484;
+  --primary-rgb: 16, 84, 132;*/
+  --primary-filter: 23,75,70; /*teal*/
+  --accent-color: #EC407A; /*pink*/
+  --accent-rgb: 236, 64, 122; /*pink*/
+
+  --danger-color: #EF5350; /*red*/
+  --success-color: #66BB6A; /*green*/
+  --info-color: #42A5F5; /*blue*/
+  --warning-color: #FFB300; /*amber*/
+
+  --danger-rgb: 239, 83, 80; /*red*/
+  --success-rgb: 102, 187, 106; /*green*/
+  --info-rgb: 66, 165, 245; /*blue*/
+  --warning-rgb: 255, 179, 0; /*amber*/
+
+  --white-color: #ffffff;
+  --white-rgb: 255, 255, 255;
+
+  --black-color: #000000;
+  --black-rgb: 0, 0, 0;
+
+  --transparent-color: transparent;
+
+  --light-grey-color: #bbbbbb;
+  --light-grey-rgb: 187, 187, 187;
+
+  --light-blue-color: #c4daf9;
+  --light-blue-rgb: 196, 218, 249;
+  --linear-gradient-light-blue-color:linear-gradient(344deg,#c4daf9 0%,#e8f2ff 90%);
+
+  --blue-grey-color: #8894ab;
+  --deep-purple-color: #7E57C2;
+  --red-color: #EF5350;
+  --orange-color: #FF7043;
+  --blue-color: #42A5F5;
+  --green-color: #66BB6A;
+  --teal-color: #26A69A;
+  --amber-color: #FFB300;
+  --pink-color: #EC407A;
+  --indigo-color: #3F51B5;  
+  --brown-color: #8D6E63;
+  --cyan-color: #00BCD4;
+  --light-green-color: #8BC34A;
+  --purple-color: #AB47BC;
+  --grey-color: #616161;
+
+  --border-radius: 4px;
+  --border-radius-button: 38px;
+  --border-radius-50percent: 50%;
+
+  --brand-facebook-color: #3b5998;
+  --brand-twitter-color: #1da1f2;
+  --brand-dribbble-color: #ea4c89;
+  --brand-google-plus-color: #ea4335;
+  --brand-linkedin-color: #007bb5;
+  --brand-whatsapp-color: #4fce5d;
+  --brand-gmail-color: #D44638;
+  --brand-pinterest-color: #E60023;
+  --brand-instagram-color: #A2292E;
+  --brand-microsoft-color: #00A4EF;
+
+}
+/* New Font-face setting ABCFavoritArabic-*/
+@font-face {
+  font-family: 'ABCFVAR-Bold';
+  src: url('./fonts/sec_font/ABCFavoritArabic-Bold.otf');
+  src: url('./fonts/sec_font/ABCFavoritArabic-Bold.otf') format('opentype'),
+       url('./fonts/sec_font/ABCFavoritArabic-Bold.woff') format('woff'),
+       url('./fonts/sec_font/ABCFavoritArabic-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'ABCFVAR-Book';
+  src: url('./fonts/sec_font/ABCFavoritArabic-Book.otf');
+  src: url('./fonts/sec_font/ABCFavoritArabic-Book.otf') format('opentype'),
+       url('./fonts/sec_font/ABCFavoritArabic-Book.woff') format('woff'),
+       url('./fonts/sec_font/ABCFavoritArabic-Book.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'ABCFVAR-Light';
+  src: url('./fonts/sec_font/ABCFavoritArabic-Light.otf');
+  src: url('./fonts/sec_font/ABCFavoritArabic-Light.otf') format('opentype'),
+       url('./fonts/sec_font/ABCFavoritArabic-Light.woff') format('woff'),
+       url('./fonts/sec_font/ABCFavoritArabic-Light.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'ABCFVAR-Medium';
+  src: url('./fonts/sec_font/ABCFavoritArabic-Medium.otf');
+  src: url('./fonts/sec_font/ABCFavoritArabic-Medium.otf') format('opentype'),
+       url('./fonts/sec_font/ABCFavoritArabic-Medium.woff') format('woff'),
+       url('./fonts/sec_font/ABCFavoritArabic-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'ABCFVAR-Regular';
+  src: url('./fonts/sec_font/ABCFavoritArabic-Regular.otf');
+  src: url('./fonts/sec_font/ABCFavoritArabic-Regular.otf') format('opentype'),
+       url('./fonts/sec_font/ABCFavoritArabic-Regular.woff') format('woff'),
+       url('./fonts/sec_font/ABCFavoritArabic-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'ABCFVAR-Variable';
+  src: url('./fonts/sec_font/ABCFavoritArabicVariable.woff');
+  src: url('./fonts/sec_font/ABCFavoritArabicVariable.woff') format('woff'),
+       url('./fonts/sec_font/ABCFavoritArabicVariable.woff2') format('woff2'),
+       url('./fonts/sec_font/ABCFavoritArabicVariable.ttf') format('truetype');
+}
 html{font-size: 10px;}
 body{overflow: hidden;margin: 0;background:var(--transparent-color);font-family: 'ABCFVAR-Regular', Helvetica, sans-serif;line-height:1.45;font-size:14px;}
 .h4, .h5, .h6, h4, h5, h6{margin-top:10px;margin-bottom:10px;}
