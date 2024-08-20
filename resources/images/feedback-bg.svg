@@ -1,0 +1,29 @@
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='440' height='42' preserveAspectRatio='none' viewBox='0 0 440 42'>
+   <g mask='url(&quot;#SvgjsMask1015&quot;)' fill='none'>
+      <!-- <rect width='440' height='42' x='0' y='0' fill='rgba(14, 42, 71, 0.91)'></rect> -->
+      <path d='M0 13L-1 -17' stroke-width='10' stroke='url(#SvgjsLinearGradient1016)' stroke-linecap='round' class='Up'></path>
+      <path d='M6 18L5 40' stroke-width='8' stroke='url(#SvgjsLinearGradient1017)' stroke-linecap='round' class='Down'></path>
+      <path d='M361 23L360 -7' stroke-width='6' stroke='url(#SvgjsLinearGradient1017)' stroke-linecap='round' class='Down'></path>
+      <path d='M183 13L182 -2' stroke-width='8' stroke='url(#SvgjsLinearGradient1017)' stroke-linecap='round' class='Down'></path>
+      <path d='M17 42L16 23' stroke-width='8' stroke='url(#SvgjsLinearGradient1016)' stroke-linecap='round' class='Up'></path>
+      <path d='M123 41L122 22' stroke-width='10' stroke='url(#SvgjsLinearGradient1017)' stroke-linecap='round' class='Down'></path>
+      <path d='M276 3L275 14' stroke-width='6' stroke='url(#SvgjsLinearGradient1016)' stroke-linecap='round' class='Up'></path>
+      <path d='M214 31L213 16' stroke-width='10' stroke='url(#SvgjsLinearGradient1016)' stroke-linecap='round' class='Up'></path>
+      <path d='M399 3L398 -24' stroke-width='10' stroke='url(#SvgjsLinearGradient1016)' stroke-linecap='round' class='Up'></path>
+      <path d='M134 13L133 -7' stroke-width='6' stroke='url(#SvgjsLinearGradient1017)' stroke-linecap='round' class='Down'></path>
+      <path d='M408 29L407 6' stroke-width='8' stroke='url(#SvgjsLinearGradient1016)' stroke-linecap='round' class='Up'></path>
+   </g>
+   <defs>
+      <mask id='SvgjsMask1015'>
+         <rect width='440' height='42' fill='white'></rect>
+      </mask>
+      <linearGradient x1='0%' y1='100%' x2='0%' y2='0%' id='SvgjsLinearGradient1016'>
+         <stop stop-color='rgba(247, 143, 58, 0)' offset='0'></stop>
+         <stop stop-color='rgba(247, 143, 58, 0.3)' offset='1'></stop>
+      </linearGradient>
+      <linearGradient x1='0%' y1='0%' x2='0%' y2='100%' id='SvgjsLinearGradient1017'>
+         <stop stop-color='rgba(247, 143, 58, 0)' offset='0'></stop>
+         <stop stop-color='rgba(247, 143, 58, 0.3)' offset='1'></stop>
+      </linearGradient>
+   </defs>
+</svg>
