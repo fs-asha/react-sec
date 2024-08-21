@@ -1418,6 +1418,7 @@ button.material-icons.languageBtn{margin-top:-20px;}
 .message-operator.bots-quick-replies .dropdown-wrapper{padding: 1px 1px;margin: 0 0;min-width: 90%;max-width: 300px;display: block;font-size: 16px;line-height: 19px;padding: 12px 4px 12px 12px;cursor: pointer;border: 1px solid rgb(110 110 110);color: var(--primary-color);background: rgba(var(--white-rgb),5%) !important;position: relative;z-index: 2;font-family: 'ABCFVAR-Regular', Helvetica, sans-serif; border-radius: 7px;}
 .message-operator.bots-quick-replies .dropdown-wrapper.adjusted{padding: 1px 1px;margin: 0 0;min-width: 150px;max-width: 300px;display: block;font-size: 16px;line-height: 19px;padding: 12px 4px 12px 12px;cursor: pointer;border: 1px solid rgb(110 110 110);color: var(--primary-color);background: rgba(var(--white-rgb),5%) !important;position: relative;z-index: 2;font-family: 'ABCFVAR-Regular', Helvetica, sans-serif; border-radius: 7px;}
 .message-operator.bots-quick-replies .dropdown-wrapper .select-wrapper select{background-image: none;transition: all .5s ease-in-out;}
+.message-operator.bots-quick-replies .dropdown-wrapper .dropdown-label{}
 .bots-quick-replies .select-wrapper select::-webkit-scrollbar {width: 6px !important;opacity: 0 !important;height: 80% !important;}
 .bots-quick-replies .select-wrapper select::-webkit-scrollbar-thumb {background: rgb(255 255 255 / 40%) !important;border-radius: 10px !important;padding:0.5rem 0;}
 
