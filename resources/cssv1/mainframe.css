@@ -1622,6 +1622,7 @@ background:#ff7300 !important;color: #ffffff !important;border: none !important;
 .message-operator.bots-quick-replies .select-wrapper{justify-content: flex-start;padding-left: 2px;}
 .message-operator.bots-quick-replies .select-wrapper button{padding: 11px 45px 11px 16px !important;background-position-x:95%;background-position-y: 50%;background-image:url("data:image/svg+xml,%3Csvg width='22' height='12' viewBox='0 0 22 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M19.566 0.368273C20.8717 -0.787172 22.939 1.04228 21.5245 2.19773L12.0584 10.671C11.5144 11.1524 10.5351 11.1524 9.99108 10.671L0.416155 2.19773C-0.889517 1.04228 1.1778 -0.787172 2.48347 0.368274L10.9703 7.97495L19.566 0.368273Z' fill='%23ffffff'/%3E%3C/svg%3E%0A");}
 .message-operator.bots-quick-replies .select-wrapper select{min-width: 100%;margin: 0 0 0 0px;justify-content: flex-start;background: transparent;border-color: #FF7300 !important;overflow-y: auto;}
+.message-operator.bots-quick-replies .select-wrapper select{color: rgb(255 255 255 / 70%);}
 .message-operator.bots-quick-replies .select-wrapper select option{color: rgb(255 255 255 / 70%);padding: 5px 0;}
 .message-operator.bots-quick-replies .select-wrapper button.sactive{background-position-x: 95%;background-position-y: 50%;}
 
