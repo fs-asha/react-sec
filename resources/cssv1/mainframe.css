@@ -156,7 +156,7 @@ svg{width: 26px;height: 26px;fill: var(--white-color);transition: all 0.2s ease-
 #button-body:not(.ie){transition:all .2s ease-in-out}
 #button-body i{pointer-events:none;}
 :focus{outline:none}
-.chat{width: 500px;position: absolute;bottom: 0px;border-radius: 4px;border-bottom-right-radius: 0;border-bottom-left-radius: 0;pointer-events: auto;box-shadow: 0 8px 22px 0 rgba(0, 18, 46, 0.16);overflow: hidden;z-index: 1;right: 10px;left: auto;background:var(--white-color);}
+.chat{width: 100%;position: absolute;bottom: 0px;border-radius: 4px;border-bottom-right-radius: 0;border-bottom-left-radius: 0;pointer-events: auto;box-shadow: 0 8px 22px 0 rgba(0, 18, 46, 0.16);overflow: hidden;z-index: 1;right: 0px;left: auto;background:var(--white-color);}
 .chat.not-ie{/*max-height: calc(100% - 60px);*/max-height: calc(100%);display: flex;flex-direction: column;}
 .chat.chrome{box-shadow: 0 8px 36px 0 rgb(0 18 46 / 16%);}
 .chat.safari{box-shadow: 0 8px 30px 0 rgba(0, 18, 46, 0.16)}
