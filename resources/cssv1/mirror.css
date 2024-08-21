@@ -243,6 +243,6 @@ line-height: 20px; margin: 5px 0 5px 0px !important; right: 15px;}
   .chat-mirror .message.message-operator.message-card{max-width: 100%;min-width: 100%;}
   .card-wrapper .item-header{font-weight:300;margin-bottom:3px;font-size:1.25rem}
   .card-wrapper .item-value{font-weight:700;margin-bottom:5px;font-size:1.35rem}
-  .chat-mirror .card-wrapper .card-base{max-width: 100%;overflow-x: auto;}
+  .chat-mirror .card-wrapper .card-base{max-width: 100%;overflow-x: auto;justify-content: center;column-gap: 10px;}
   .chat-mirror .card-wrapper .card-base .payment-label .pay-image{height: 19px;max-height: 19px;width: 105px;}
 }

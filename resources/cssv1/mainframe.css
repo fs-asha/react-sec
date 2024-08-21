@@ -1714,7 +1714,7 @@ background:#ff7300 !important;color: #ffffff !important;border: none !important;
   .message.message-operator.message-card{max-width: 100%;min-width: 90%;}
   .card-wrapper .item-header{font-weight:300;margin-bottom:3px;font-size:1.05rem}
   .card-wrapper .item-value{font-weight:700;margin-bottom:5px;font-size:1.35rem}
-  .card-wrapper .card-base{max-width: 100%;overflow-x: auto;}
+  .card-wrapper .card-base{max-width: 100%;overflow-x: auto;justify-content: center;column-gap: 10px;}
   .card-wrapper .card-base .payment-label .pay-image{height: 19px;max-height: 19px;width: 105px;}
 }
 
