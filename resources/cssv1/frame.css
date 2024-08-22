@@ -1,0 +1,524 @@
+.animated {
+	animation-fill-mode: none!important
+}
+
+.showchatbar {
+	color: #fff!important;
+	text-align: center;
+	text-decoration: none!important;
+	cursor: pointer;
+	z-index: 9998;
+	text-transform: uppercase;
+	border-radius: 0;
+	position: fixed;
+	bottom: 0;
+	right: 85px;
+}
+
+.showchatbar:hover {
+	-webkit-transition: all .2s ease-in;
+	-webkit-transform: scale(1.03);
+	-ms-transition: all .2s ease-in;
+	-ms-transform: scale(1.03);
+	-moz-transition: all .2s ease-in;
+	-moz-transform: scale(1.03);
+	transition: all .2s ease-in;
+	transform: scale(1.03)
+}
+
+.bounce {
+	-moz-animation: bounce 5s infinite;
+	-webkit-animation: bounce 5s infinite;
+	animation: bounce 5s infinite
+}
+
+@-moz-keyframes bounce {
+	0%,
+	100%,
+	20%,
+	50%,
+	80% {
+		-moz-transform: translateY(0);
+		transform: translateY(0)
+	}
+	40% {
+		-moz-transform: translateY(-15px);
+		transform: translateY(-15px)
+	}
+	60% {
+		-moz-transform: translateY(-10px);
+		transform: translateY(-10px)
+	}
+}
+
+@-webkit-keyframes bounce {
+	0%,
+	100%,
+	20%,
+	50%,
+	80% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-15px);
+		transform: translateY(-15px)
+	}
+	60% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px)
+	}
+}
+
+@keyframes bounce {
+	0%,
+	100%,
+	20%,
+	50%,
+	80% {
+		-moz-transform: translateY(0);
+		-ms-transform: translateY(0);
+		-webkit-transform: translateY(0);
+		transform: translateY(0)
+	}
+	40% {
+		-moz-transform: translateY(-15px);
+		-ms-transform: translateY(-15px);
+		-webkit-transform: translateY(-15px);
+		transform: translateY(-15px)
+	}
+	60% {
+		-moz-transform: translateY(-10px);
+		-ms-transform: translateY(-10px);
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px)
+	}
+}
+
+.closeBtn {
+	position: absolute;
+	/* top: 35px;
+	right: 15px; */
+	top: 15px;
+    right: 25px;
+    font-size: 19px;
+    opacity: 1;
+    color: #000;
+    z-index: 99999;
+    cursor: pointer;
+    width: 51px;
+    height: 50px;
+    display: none;
+}
+
+.outterFrame {
+	z-index: 99999999;
+	position: fixed;
+	bottom: 0;
+	right: 0px;
+	width: 33%;
+	max-width: 390px;
+	height: calc(100vh - 10px);
+	border-width: 0;
+	display: none;
+	height: calc(100vh - 100px);
+    max-height: 650px;
+}
+
+.i_frame{
+	display: block;
+	border: none;
+	position: fixed !important;
+	top: auto;
+	bottom: 0px;
+	left: auto;
+	right: 0px;
+	width: 510px !important;
+	/* height: 100%;
+	max-height: 100vh; */
+	opacity: 1;
+	background: none transparent;
+	margin: 0px;
+	max-width: 100vw;
+	transform: translateY(0px);
+	transition: none 0s ease 0s !important;
+	visibility: visible;
+	z-index: 9990 !important;
+	height: calc(100vh - 100px);
+	max-height: 650px;
+	/* border-radius: 47px 30px 47px 47px;*/
+}
+.outterFrame.is-mobile{
+	max-height: 100% !important;
+}
+.outterFrame.is-mobile .i_frame{
+	max-height: 100% !important;
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape) {
+	.outterFrame {
+		width: 33%
+	}
+	.i_frame {
+		width: 100%
+	}
+	.showchatbar {
+		width: 15%
+	}
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait) {
+	.outterFrame {
+		width: 52%
+	}
+	.i_frame {
+		width: 100%
+	}
+	.showchatbar {
+		width: 16%
+	}
+}
+
+@media(min-width:320px) and (max-width:480px) {
+	.outterFrame {
+		right: 0;
+		width: 100%;
+		height: 100%
+	}
+	.i_frame {
+		right: 0;
+		height: 100%;
+		width: 100%;
+		left: 0 !important;
+	}
+	.showchatbar {
+		width: 25%
+	}
+	.closeBtn {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		font-size: 19px;
+		opacity: 1;
+		color: #000;
+		z-index: 99999;
+		cursor: pointer;
+		width: 43px;
+		height: 50px;
+		display: none;
+	}
+}
+
+@media(min-width:481px) and (max-width:767px) {
+	.outterFrame {
+		right: 0;
+		width: 100%;
+		height: 100%
+	}
+	.i_frame {
+		right: 0;
+		height: 100%;
+		width: 100%;
+		left: 0 !important;
+	}
+	.closeBtn {
+		position: absolute;
+		top: 0;
+		right: 0;
+		font-size: 19px;
+		opacity: 1;
+		color: #000;
+		z-index: 99999;
+		cursor: pointer;
+		width: 35px;
+		height: 40px;
+		display: none
+	}
+}
+
+@media(min-width:768px) and (max-width:1024px) {
+	.outterFrame {
+		width: 52%;
+		height: calc(100vh - 100px);
+    	max-height: 650px;
+	}
+	.i_frame {
+		width: 100%;
+		height: calc(100vh - 100px);
+    	max-height: 650px;
+	}
+}
+
+@media(min-width:800px) and (max-width:991px) {
+	.outterFrame {
+		width: 52%;
+		height: 100%
+	}
+	.i_frame {
+		height: 100%;
+		width: 100%
+	}
+}
+
+@media(min-width:1271px) and (max-width:1366px) {
+	.outterFrame {
+		width: 35%;
+		height: calc(100vh - 100px);
+    	max-height: 650px;
+	}
+	.i_frame {
+		height: calc(100vh - 100px);
+    	max-height: 650px;
+	}
+}
+
+@media(min-width:1025px) and (max-width:1270px) {
+	.outterFrame {
+		width: 41%;
+		/*height: calc(100vh - 60px)*/
+	}
+	.i_frame {
+		width: 100%;
+		height: calc(100vh - 100px);
+    	max-height: 650px;
+	}
+}
+
+@media(min-width:1910px) {
+	.outterFrame {
+		height: calc(100vh - 100px);
+    	max-height: 650px;
+	}
+	.i_frame {
+		height: calc(100vh - 100px);
+    	max-height: 650px;
+	}
+}
+
+@media(max-width:319px) {
+	.outterFrame {
+		right: 0;
+		width: 100%;
+		height: 100%
+	}
+	.i_frame {
+		height: 100%;
+		width: 100%
+	}
+}
+
+@media(min-height:1024px) and (max-height:2170px) /*and (max-width:1599px)*/ {
+	.outterFrame {
+		/* height: calc(100vh - 10px) !important; */
+		height: calc(100vh - 100px);
+    	max-height: 650px;
+	}
+	.i_frame {
+		/* height: 100% */
+		height: calc(100vh - 100px);
+    	max-height: 650px;
+	}
+}
+
+@media (min-height:500px) and (max-height:560px) /*and (max-width:1599px)*/ {
+	.outterFrame {
+		height: calc(100vh - 10px) !important;
+	}
+	.i_frame {
+		height: 100%
+	}
+}
+
+/* ----------- Windows Phone ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 480px) 
+  and (device-height: 800px) {
+  	.showchatbar{right:50px;}
+    .closeBtn{top:5px;right:5px}
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 480px) 
+  and (device-height: 800px)  
+  and (orientation: portrait) {
+    .showchatbar{right:50px;}
+    .closeBtn{top:5px;right:5px}
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 480px) 
+  and (device-height: 800px) 
+  and (orientation: landscape) {
+    .showchatbar{right:50px;}
+    .closeBtn{top:5px;right:5px}
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .showchatbar{right:50px;}
+    .closeBtn{top:5px;right:5px}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  	.showchatbar{right:50px;}
+    .closeBtn{top:5px;right:5px}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .showchatbar{right:50px;}
+    .closeBtn{top:5px;right:5px}
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .showchatbar{right:50px;}
+    .closeBtn{top:5px;right:5px}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  	.showchatbar{right:50px;}
+    .closeBtn{top:5px;right:5px}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .showchatbar{right:50px;}
+    .closeBtn{top:5px;right:5px}
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .showchatbar{right:50px;}
+    .closeBtn{top:5px;right:5px}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .showchatbar{right:50px;}
+    .closeBtn{top:5px;right:5px}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .showchatbar{right:50px;}
+    .closeBtn{top:5px;right:5px}
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .showchatbar{right:50px;}
+    .closeBtn{top:5px;right:5px}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .showchatbar{right:50px;}
+    .closeBtn{top:5px;right:5px}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .showchatbar{right:50px;}
+    .closeBtn{top:5px;right:5px}
+}
+
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .showchatbar{right:50px;}
+    .closeBtn{top:5px;right:5px}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .showchatbar{right:50px;}
+    .closeBtn{top:5px;right:5px}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .showchatbar{right:50px;}
+    .closeBtn{top:5px;right:5px}
+}
+
+/* New Layout Overwrite */
+.showchatbar {
+	bottom: 15px;
+	right: 15px;
+	width: 70px;
+	height: 70px;
+}
+
+.outterFrame{
+	width: 510px !important;
+	max-width: 510px !important;
+}

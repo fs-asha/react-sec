@@ -232,6 +232,8 @@ line-height: 20px; margin: 5px 0 5px 0px !important; right: 15px;}
 /* .chat-mirror *{word-spacing: 5px !important;} */
 .chat-mirror .message-operator.bots-quick-replies .button-wrapper.button-grouped button .btn-inside{flex-direction: row;}
 .chat-mirror .message-operator.bots-quick-replies .button-wrapper.button-grouped button .btn-inside .btn-inside-svg svg{margin-left: 0;margin-right: 5px;}
+.chat-mirror .message-operator.bots-quick-replies .btn-break{display: block;width: 100%;}
+.chat-mirror .message-operator.bots-quick-replies .btn-break button.btnClassNl{}
 
 @media(max-width: 499px){
   .chat-mirror .scrollbar-container{padding: 0 12px 0 12px !important;}
@@ -241,6 +243,8 @@ line-height: 20px; margin: 5px 0 5px 0px !important; right: 15px;}
   .chat-mirror .user-data-modal#firstMessageModel{padding: 25px 5px 50px !important;}
   .chat-mirror .user-data-modal#firstMessageModel .user-data-modal-text h3.text-arabic.extended{font-size: 1.6rem !important;}
   .chat-mirror .message.message-operator.message-card{max-width: 100%;min-width: 100%;}
+  .chat-mirror .message-operator.bots-quick-replies .btn-break{display: block;width: 100%;}
+  .chat-mirror .message-operator.bots-quick-replies .btn-break button.btnClassNl{}
   .card-wrapper .item-header{font-weight:300;margin-bottom:3px;font-size:1.25rem}
   .card-wrapper .item-value{font-weight:700;margin-bottom:5px;font-size:1.35rem}
   .chat-mirror .card-wrapper .card-base{max-width: 100%;overflow-x: auto;justify-content: center;column-gap: 10px;}
