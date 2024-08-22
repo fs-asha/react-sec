@@ -1,4 +1,47 @@
-@import url(_nfonts.css);
+/* @import url(_nfonts.css); */
+/* New Font-face setting ABCFavoritArabic-*/
+@font-face {
+  font-family: 'ABCFVAR-Bold';
+  src: url('./fonts/sec_font/ABCFavoritArabic-Bold.otf');
+  src: url('./fonts/sec_font/ABCFavoritArabic-Bold.otf') format('opentype'),
+       url('./fonts/sec_font/ABCFavoritArabic-Bold.woff') format('woff'),
+       url('./fonts/sec_font/ABCFavoritArabic-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'ABCFVAR-Book';
+  src: url('./fonts/sec_font/ABCFavoritArabic-Book.otf');
+  src: url('./fonts/sec_font/ABCFavoritArabic-Book.otf') format('opentype'),
+       url('./fonts/sec_font/ABCFavoritArabic-Book.woff') format('woff'),
+       url('./fonts/sec_font/ABCFavoritArabic-Book.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'ABCFVAR-Light';
+  src: url('./fonts/sec_font/ABCFavoritArabic-Light.otf');
+  src: url('./fonts/sec_font/ABCFavoritArabic-Light.otf') format('opentype'),
+       url('./fonts/sec_font/ABCFavoritArabic-Light.woff') format('woff'),
+       url('./fonts/sec_font/ABCFavoritArabic-Light.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'ABCFVAR-Medium';
+  src: url('./fonts/sec_font/ABCFavoritArabic-Medium.otf');
+  src: url('./fonts/sec_font/ABCFavoritArabic-Medium.otf') format('opentype'),
+       url('./fonts/sec_font/ABCFavoritArabic-Medium.woff') format('woff'),
+       url('./fonts/sec_font/ABCFavoritArabic-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'ABCFVAR-Regular';
+  src: url('./fonts/sec_font/ABCFavoritArabic-Regular.otf');
+  src: url('./fonts/sec_font/ABCFavoritArabic-Regular.otf') format('opentype'),
+       url('./fonts/sec_font/ABCFavoritArabic-Regular.woff') format('woff'),
+       url('./fonts/sec_font/ABCFavoritArabic-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'ABCFVAR-Variable';
+  src: url('./fonts/sec_font/ABCFavoritArabicVariable.woff');
+  src: url('./fonts/sec_font/ABCFavoritArabicVariable.woff') format('woff'),
+       url('./fonts/sec_font/ABCFavoritArabicVariable.woff2') format('woff2'),
+       url('./fonts/sec_font/ABCFavoritArabicVariable.ttf') format('truetype');
+}
 /*Font-face setting*/
 @font-face {
   font-family: 'SEC_GE_Bold';
