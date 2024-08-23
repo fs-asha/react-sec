@@ -279,6 +279,8 @@ line-height: 20px; margin: 5px 0 5px 0px !important; right: 15px;}
 .chat-mirror .message-operator.bots-quick-replies .btn-break button.btnClassNl{}
 
 /* New mobile dropdown */
+.chat-mirror .message-operator.bots-quick-replies .select-wrapper{}
+.chat-mirror .message-operator.bots-quick-replies .select-wrapper.adjusted{}
 .chat-mirror .react-select__control{
   background-color: #0d0d0d;
   border-color: #0d0d0d;

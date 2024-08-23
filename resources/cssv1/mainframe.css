@@ -1798,6 +1798,8 @@ button.material-icons.exit-chat svg{width: 14px;height: 14px;}
 *:not(.simulator){scrollbar-width: inherit !important;}
 
 /* New mobile dropdown */
+.message-operator.bots-quick-replies .select-wrapper{}
+.message-operator.bots-quick-replies .select-wrapper.adjusted{}
 .react-select__control{
   background-color: #0d0d0d;
   border-color: #0d0d0d;
