@@ -1773,7 +1773,7 @@ button.material-icons.exit-chat svg{width: 14px;height: 14px;}
 @media(max-width: 499px){
   .user-data-modal#firstMessageModel .user-data-modal-text h3.extended{font-size: 1.6rem !important;}
 }
-.userLocation{background:rgba(var(--white-color),.002)!important;caret-color:#F5F3F1;color:#F5F3F1!important;font-style:normal;font-weight:400;font-size:15px;-webkit-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text;border:0;width:91%;padding:10px 20px 0 35px;resize:none;line-height:24px;overflow-x:hidden;display:block;max-width:91%;word-break:break-all;min-height:58px;align-items:center;}
+.userLocation{background:rgba(var(--white-color),.002)!important;caret-color:#F5F3F1;color:#F5F3F1!important;font-style:normal;font-weight:400;font-size:15px;-webkit-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text;border:0;width:91%;padding:10px 20px 0 35px;resize:none;line-height:24px;overflow-x:hidden;display:block;max-width:91%;word-break:break-all;min-height:58px;display:flex;align-items:center;}
 .message-operator .button-wrapper .btnFeedClass.feedback-button:hover {background-color: #ffffff !important;}
 .message-operator .button-wrapper .btnFeedClass.feedback-button.highlight-1 {background-color: #ffffff !important;}
 .message-operator .button-wrapper .btnFeedClass.feedback-button.highlight-1 svg path{stroke: #D0021B !important;}
