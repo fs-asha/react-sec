@@ -314,7 +314,7 @@ line-height: 20px; margin: 5px 0 5px 0px !important; right: 15px;}
 .chat-mirror .react-select__indicator-separator{display: none;}
 .chat-mirror .react-select__placeholder{color: #ffffff;}
 .chat-mirror .react-select__menu{background-color:#020202;width: auto !important;z-index: 3 !important;/*max-height: 130px;*/}
-.chat-mirror .react-select__menu-list{background-color:#ffffff0d;direction: rtl !important;/*max-height: 130px;overflow-y: scroll;*/}
+.chat-mirror .react-select__menu-list{background-color:#ffffff0d;direction: rtl !important;-webkit-overflow-scrolling: touch;transform: 'none';/*max-height: 130px;overflow-y: scroll;*/}
 .chat-mirror .react-select__option{color:#ffffff;text-decoration: none !important;}
 .chat-mirror .react-select__option--is-focused, .chat-mirror .react-select__option:active{background-color: #ffffff0d !important;}
 /* New mobile dropdown */
