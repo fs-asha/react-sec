@@ -1796,6 +1796,7 @@ button.material-icons.exit-chat svg{width: 14px;height: 14px;}
 .message-operator .button-wrapper .btnFeedClass.feedback-button.highlight-5 svg path{stroke: #18931F !important;}
 .message-operator .button-wrapper .btnFeedClass.feedback-button.highlight-5 svg path.hovered{fill: #18931F !important;}
 *:not(.simulator){scrollbar-width: inherit !important;}
-/* End: New cards */
-/* #conversation-group.scroll-activated::before{content:' ';position: absolute;background: rgb(0 0 0 / 90%);width: 100%;height: 75px;left: 0;top: 0;z-index: 4;}
-#conversation-group.scroll-activated .scrollbar-container{height: calc(100% + 70px);margin-top: -70px;padding-top: 70px !important;} */
+
+/* New mobile dropdown */
+.message-operator.bots-quick-replies .select-wrapper{}
+/* New mobile dropdown */
