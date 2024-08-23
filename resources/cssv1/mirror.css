@@ -279,9 +279,9 @@ line-height: 20px; margin: 5px 0 5px 0px !important; right: 15px;}
 .chat-mirror .message-operator.bots-quick-replies .btn-break button.btnClassNl{}
 
 /* New mobile dropdown */
-.chat-mirror .message-operator.bots-quick-replies .select-wrapper{}
-.chat-mirror .message-operator.bots-quick-replies .select-wrapper.adjusted{}
-.chat-mirror .react-select__control{
+.chat-mirror .message-operator.bots-quick-replies .select-wrapper.isMob{display: block;}
+.chat-mirror .message-operator.bots-quick-replies .select-wrapper.isMob.adjusted{}
+.chat-mirror .isMob .react-select__control{
   background-color: #0d0d0d;
   border-color: #0d0d0d;
   border-radius: 40px;
@@ -293,6 +293,21 @@ line-height: 20px; margin: 5px 0 5px 0px !important; right: 15px;}
   justify-content: space-between;
   min-height: 41px;
   max-height: 41px;
+  width: 250px;
+}
+.chat-mirror .isMob.adjusted .react-select__control{
+  background-color: #0d0d0d;
+  border-color: #0d0d0d;
+  border-radius: 40px;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  min-height: 41px;
+  max-height: 41px;
+  width: 150px;
 }
 .chat-mirror .react-select__indicator-separator{display: none;}
 .chat-mirror .react-select__placeholder{color: #ffffff;}

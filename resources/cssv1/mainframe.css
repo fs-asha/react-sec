@@ -1798,9 +1798,9 @@ button.material-icons.exit-chat svg{width: 14px;height: 14px;}
 *:not(.simulator){scrollbar-width: inherit !important;}
 
 /* New mobile dropdown */
-.message-operator.bots-quick-replies .select-wrapper{}
-.message-operator.bots-quick-replies .select-wrapper.adjusted{}
-.react-select__control{
+.message-operator.bots-quick-replies .select-wrapper.isMob{display: block;}
+.message-operator.bots-quick-replies .select-wrapper.isMob.adjusted{}
+.isMob .react-select__control{
   background-color: #0d0d0d;
   border-color: #0d0d0d;
   border-radius: 40px;
@@ -1812,6 +1812,21 @@ button.material-icons.exit-chat svg{width: 14px;height: 14px;}
   justify-content: space-between;
   min-height: 41px;
   max-height: 41px;
+  width: 250px;
+}
+.isMob.adjusted .react-select__control{
+  background-color: #0d0d0d;
+  border-color: #0d0d0d;
+  border-radius: 40px;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  min-height: 41px;
+  max-height: 41px;
+  width: 150px;
 }
 .react-select__indicator-separator{display: none;}
 .react-select__placeholder{color: #ffffff;}
