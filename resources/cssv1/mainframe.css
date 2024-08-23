@@ -1813,7 +1813,7 @@ button.material-icons.exit-chat svg{width: 14px;height: 14px;}
   min-height: 41px;
   max-height: 41px;
   width: 250px;
-  direction: ltr;
+  direction: ltr !important;
 }
 .isMob.adjusted .react-select__control{
   background-color: #0d0d0d;
@@ -1828,7 +1828,7 @@ button.material-icons.exit-chat svg{width: 14px;height: 14px;}
   min-height: 41px;
   max-height: 41px;
   width: 170px;
-  direction: ltr;
+  direction: ltr !important;
 }
 .react-select__indicator-separator{display: none;}
 .react-select__placeholder{color: #ffffff;}
