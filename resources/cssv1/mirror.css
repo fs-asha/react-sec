@@ -313,9 +313,10 @@ line-height: 20px; margin: 5px 0 5px 0px !important; right: 15px;}
 }
 .chat-mirror .react-select__indicator-separator{display: none;}
 .chat-mirror .react-select__placeholder{color: #ffffff;}
-.chat-mirror .react-select__menu{background-color:#ffffff0d;max-height:150px;overflow-y:auto;}
-.chat-mirror .react-select__menu-list{max-height:150px;overflow-y:auto;}
+.chat-mirror .react-select__menu{background-color:#ffffff0d;max-height: 135px;overflow-y: scroll;}
+.chat-mirror .react-select__menu-list{max-height: 135px;overflow-y: scroll;}
 .chat-mirror .react-select__option{color:#ffffff;}
+.chat-mirror .react-select__option--is-focused{background-color: #ffffff0d;}
 /* New mobile dropdown */
 
 @media(max-width: 499px){
