@@ -1727,7 +1727,6 @@ background:#ff7300 !important;color:#fff !important;border:none !important}
   .message-operator.bots-quick-replies .button-wrapper.emojies{justify-content:center;column-gap:3px;flex-direction:row;max-width:106%}
 }
 
-
 .card-printer{visibility:hidden;position:relative;z-index:-1;height:535px;width:825px}
 .card-wrapper-print{display:flex;flex-direction:column;align-items:flex-start;padding:10px 10px;position:fixed;bottom:0;left:0;z-index:-1; width:825px; height:535px; /*transform:scale(2);*/background-color:#fff7f1;/* visibility:hidden; */}
 .card-wrapper-print .logo{background:transparent;background-image:url(../images/sec/logo_sm.svg);background-size:contain;background-repeat:no-repeat;background-position:center;height:45px;max-height:45px;width:115px;margin-bottom:5px}
