@@ -284,7 +284,7 @@ line-height: 20px; margin: 5px 0 5px 0px !important; right: 15px;}
 .chat-mirror .message-operator.bots-quick-replies .select-wrapper.isMob.adjusted{}
 
 /*! OverlayScrollbars */
-.chat-mirror .bots-quick-replies .select-wrapper.isMob .dropdown-list{height: 90px;max-height: 90px;overflow-y: auto;}
+.chat-mirror .bots-quick-replies .select-wrapper.isMob .dropdown-list{height: 90px;max-height: 90px;overflow-y: auto;direction: rtl !important;}
 .chat-mirror .bots-quick-replies .select-wrapper.isMob .dropdown-list.for-two{height: 75px;max-height: 75px;overflow-y: auto;}
 .chat-mirror .bots-quick-replies .select-wrapper.isMob .dropdown-list .cust-dd-list{}
 /* New mobile dropdown */
