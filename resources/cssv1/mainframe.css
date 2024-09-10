@@ -1712,6 +1712,7 @@ background:#ff7300 !important;color:#fff !important;border:none !important}
   .card-wrapper .item-value{font-weight:700;margin-bottom:5px;font-size:1.35rem}
 }
 @media(max-width:499px){
+  .chat{width: 100%;}
   .scrollbar-container{padding:0 12px 0 12px !important}
   .message-operator.bots-quick-replies .button-wrapper{width:117%}
   .message-operator.bots-quick-replies .button-wrapper.button-grouped button{font-size:14px !important}
